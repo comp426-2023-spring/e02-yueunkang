@@ -83,9 +83,9 @@ async function play() {
                     // NOTE: This does not render properly on GitHub.
                     // Click Raw (https://raw.githubusercontent.com/comp426-2023-spring/e02-jesse-wei/main/public/scripts.js)
                     // To see what the code actually is
-                    result_element.innerHTML = `<p>You: ${capitalizeFirstLetter(result.player)}</p>
-                    <p>Your opponent: ${capitalizeFirstLetter(result.opponent)}</p>
-                    <p>Result: You ${result.result.toUpperCase()}</p>`;
+                    result_element.innerHTML = `<p>You put ${capitalizeFirstLetter(result.player)}</p>
+                    <p>Your opponent put ${capitalizeFirstLetter(result.opponent)}</p>
+                    <p>Therefore you  ${result.result.toUpperCase()}</p>`;
                 } else {
                     result_element.innerHTML = result.player.toUpperCase();
                 }
