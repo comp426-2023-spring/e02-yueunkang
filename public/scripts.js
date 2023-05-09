@@ -13,7 +13,6 @@ function displayShots() {
     let rps_checked = document.getElementById("rps").checked;
     let rpsls_checked = document.getElementById("rpsls").checked;
     if (!rps_checked && !rpsls_checked) {
-        // If neither RPS nor RPSLS is checked, check RPS
         document.getElementById("rps").click();
     }
     let shot_options = document.getElementById("shot_options");
@@ -78,7 +77,6 @@ async function play() {
                 console.log(result);
                 let result_element = document.getElementById("result");
                 if (opponent_checked) {
-                    // NOTE: This does not render properly on GitHub.
                     // Click Raw (https://raw.githubusercontent.com/comp426-2023-spring/e02-yueunkang/main/public/scripts.js)
                     // To see what the code actually is
                     result_element.innerHTML = `<p>You put ${capitalizeFirstLetter(result.player)}</p>

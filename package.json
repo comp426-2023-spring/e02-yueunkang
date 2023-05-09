@@ -1,5 +1,4 @@
-{
-  "name": "html-cs-js-demo",
+{ "name": "html-cs-js-demo",
   "version": "1.0.0",
   "description": "This is the base code for an html+css+js demo non-assignment (extra credit).",
   "main": "server.js",
