@@ -7,7 +7,8 @@
   "scripts": {
     "test": "nodemon -e js,css,html server.js --port=5000 --debug",
     "start": "node server.js",
-    "demo": "nodemon -e js,css,html server.js --port=5000 --stat=demo"
+    "demo": "nodemon -e js,css,html server.js --port=5000 --stat=demo",
+    "5001": "nodemon -e js,css,html server.js --port=5001 --debug"
   },
   "keywords": [
     "node",
@@ -25,6 +26,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "minimist": "^1.2.8",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
   }
 }
